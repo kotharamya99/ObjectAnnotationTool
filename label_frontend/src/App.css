@@ -1,0 +1,211 @@
+.container {
+    background-color: #000000;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 60%;
+  }
+  
+  .feature {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    margin-right: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+  img {
+    max-width: 100%;
+    /* background-color: #f5f5f5; */
+    color: #f5f5f5;
+  }
+  
+  .top-left-header {
+    background-color: #000000; /* Your desired background color (black in this case) */
+    color: #fff; /* Your desired text color (white in this case) */
+    position: fixed;
+    top: 0;
+    font-family: 'monospace';
+    left: 0;
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    z-index: 100; /* Adjust z-index to ensure it's above other content if necessary */
+}
+
+
+.titles {
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.upload-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .count-box {
+    /* width: 100px;
+    height: 100px;
+    background-color: #007BFF; */
+    color: rgb(14, 10, 10);
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .get-started-button {
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .closeButton {
+    left: 0;
+    bottom: 0;
+  }
+
+  .overlay {
+    background-color: #7a907b;
+    color: #f0ebeb;
+    width: 60%;
+    height: 40%;
+    align-items: center;
+  }
+
+
+  .drop-box {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+  }
+
+  /* .start-project {
+    margin-top: 2%;
+    top: 200%;
+  } */
+
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/* Add this to your CSS file */
+
+.start-project-container {
+    background: #f2f2f2;
+    min-height: 100vh;
+  }
+  
+  .top-left-header {
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 100;
+  }
+  
+  .top-left-header h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  /* Highlight color for Aqua */
+  .highlight-aqua {
+    background-color: aqua;
+    color: #000;
+  }
+
+  /* Add this to your CSS file */
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Adjust this to set the aspect ratio to square (1:1) */
+  .gallery-item::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%; /* 1:1 aspect ratio */
+  }
+  
+  
